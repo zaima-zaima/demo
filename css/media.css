@@ -1,0 +1,24 @@
+
+@media (max-width:991.99px) {
+    .carousel {
+        padding:0;
+    }
+
+    .musk,.content {
+        height: auto !important;
+    }
+
+    .musk {
+        position: relative !important;
+    }
+    .menu {
+        height:auto !important;
+        position: relative !important;
+    }
+}
+
+@media (max-width:574.99px) {
+    .pic div {
+        padding:0;
+    }
+}

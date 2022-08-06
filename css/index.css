@@ -1,0 +1,119 @@
+@import "//at.alicdn.com/t/font_3335149_vl3e0ecj8c.css";
+
+
+ nav {
+    height:3rem;
+    padding-right:0rem;
+}
+
+
+.menu .content {
+    height:calc(100vh - 3rem);
+}
+
+.menu {
+    left:0;
+    position:relative;
+}
+
+.login {
+    margin-right:0.5rem;
+}
+
+.register {
+    border-radius:1rem;
+    padding:.4rem;
+    border:.1rem solid;
+}
+
+
+.musk {
+    left:0;
+    z-index:0;
+}
+
+.navbar-container {
+    display:flex;
+    margin-right:auto;
+}
+
+.navbar-container li {
+    margin-left:1.2rem
+}
+
+.button {
+    cursor: pointer;
+}
+
+.toggle {
+    width:100%;
+    height:100vh;
+    margin-top:0;
+    transition:all .5s;
+    top:0;
+    left:0;
+    position: absolute !important;
+}
+
+.toggle .navbar {
+    padding:0px 1rem;
+}
+
+.toggle ul {
+    margin-left:5rem;
+}
+
+.toggle ul li a {
+    color:inherit
+}
+
+.footer-desc {
+    color:rgba(0, 0, 0, .9);
+}
+.footer-desc span {
+    color:inherit
+}
+
+.footer-desc span a {
+    color:inherit;
+}
+
+.hide {
+    opacity:0;
+    z-index:-1;
+}
+
+.show {
+    opacity: 1;
+    z-index:3000;
+}
+.wrapper {
+    width:60rem;
+}
+
+.btn-r {
+    padding:.5rem 1.5rem;
+    margin-right:.5rem;
+    border:.1rem solid;
+    border-radius:1rem;
+}
+
+.tab-bar {
+    width:100%;
+    height:40px;
+    background-color: rgb(235, 228, 228);
+    bottom:0;
+    margin-bottom:0;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.tab-bar li {
+    flex-grow:1;
+    text-align: center;
+    font-size:0.5rem;
+}
+
+.tab-bar li p {
+    margin-bottom:0;
+}
